@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+   
+}
+  :root{
+      box-sizing: border-box;
+  }
+  *::before,
+  *::after{
+      box-sizing: inherit;
+  }
+  img{
+      width: 100%;
+  }
+  a{
+      color:black;
+      text-decoration: none;
+  }
+  a:hover{
+      color: rgba(248, 10, 10, 0.925);
+      text-decoration: underline;
+  }
+  li{
+      font-family: sans-serif;
+      font-weight: 800;
+      list-style-type:none;
+       padding: 5px;
+      
+  }
+  h2{
+      color: red;
+      padding: 0%;
+
+      padding-top: 10px;
+      padding-bottom: 5px;
+      padding-left: 105px;
+     
+  }
+  h1 a{
+      padding-left: 10px;
+      color: red;
+  }
+    h1 a:hover{
+        color: black;
+    }
+
+   
+
+  h1{
+      
+          color: red;
+          padding: 0%;
+          
+          padding-top: 10px;
+          padding-bottom: 5px;
+         
+         
+      }
+        .heading  h3 a, .heading p a{
+            
+                color: red;
+                padding: 0%;
+                
+                padding-top: 10px;
+                padding-bottom: 5px;
+                padding-left: 105px;
+               }
+
+               header{
+                top: 0%;
+                padding: 0%;
+                margin: 0%;
+                display: grid;
+                left: 0%;
+                   }
+ 
+                   table{
+                    justify-content: center;
+                }
+                section{
+                 justify-content: center;
+                }
+                 footer{
+                     background-color: black;
+                     color: rgb(119, 114, 114);
+                 }
+               /*header section with the first nav bar*/
+                    .nex{
+                        display:flex;
+                        width: 100%;
+                        justify-content: space-between;
+                        background-color: black;
+                        position: relative;
+                    }
+                   .locat1{
+                    display: flex;
+                    flex-direction: row;
+                      
+                       top: 0%;
+                       left: 0%;
+                       padding: 0px 7px 0px 7px;
+                       margin: 0%;
+                       box-sizing: border-box;
+                      
+                   }
+                   
+                   .locat2{
+                       display: grid;
+                       grid-template-columns: repeat(4, 70px);
+                       float: right;
+                       top: 0%;
+                       right: 0%;
+                       padding: 0%;
+                       margin: 0%;
+                       box-sizing: border-box;
+                       
+                   }
+                   .nex a{
+                       padding: 0px 3px 0px 0px;
+                       color: rgb(155, 148, 148);
+                       font-size: small;
+                       font-weight: lighter;
+                       padding: 0px 7px 0px 0px ;
+                       font-family: "open sans" sans-serif;
+                   }
+                   .nex a:hover{
+                      color: rgb(252, 243, 243);
+                       text-decoration: none;
+                   }
+                
+                 /*header section with second nav bar*/
+                      
+                 .header_nav,
+                 .head_nav{
+                          padding: 6px;
+                         position: sticky; 
+                      }
+                     .header_nav ul{
+                         
+                        display: flex;
+                        flex-direction: row;
+                         top: 0%;
+                         left: 0%;
+                         margin: 0%;
+                         padding: 0%;
+                         font-size: smaller;
+                         font-weight: lighter;
+                         font-family: 'JetBrains Mono', monospace;                        background-color: white;
+                        width: 100%;
+                     }
+                  /*body first section */
+                  .first_born{
+                    display: grid;
+                    grid-template-columns: repeat(4, 290px);
+                }
+                .grandchild{
+                    padding: 15px;
+                }
+                .grandchild p{
+                    font-weight: bolder;
+                    font-size: 17px;
+                    font-family: sans-serif;
+                  }
+                  .grandchild #name ul{
+                     display: flex;
+                     padding: 5px;
+                   font-family: 'Courier New', Courier, monospace;
+                   font-size: 12px;
+                   font-weight: lighter;
+                   color: rgb(167, 158, 158);    
+                  }
+                                 /*body second section*/
+                  .index , .index ul
+                  {
+                      display: flex;
+                      justify-content: space-evenly;
+                       
+                  }
+                  
+                  .index ul li{
+                   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                   font-weight: lighter;
+                   font-size: 17px;
+                   
+                  }
+                  .index a{
+                      color: red;
+                      text-decoration: none;
+                  }
+                  .index a:hover{
+                      color: black;
+                      text-decoration: none;
+                  }
+                  .second_grandchild{
+                      padding: 15px;
+                  }
+                  .second_grandchild .color{
+                      background-color: rgb(248, 231, 234);
+                      padding: 7px;
+                     
+                  }
+                  .second_grandchild .color p{
+                      padding: 5px;
+                      font-weight: lighter;
+                  }
+                  .dim{
+                     color: rgb(85, 80, 80);
+                  }
+                           /*body third section*/
+                           .manycam{
+                               display: grid;
+                               grid-template-columns: repeat(3, 400px);
+                               justify-content: center;
+                               box-sizing: border-box;
+                               padding: 15px;
+                           }
+                           .many1{
+                               padding: 15px;
+                           }
+                            
+                           .many1 .t img{
+                             width: 110px;
+                             height: 70px;
+                           }
+                           .many1 .t{
+                               display: flex;
+                               background-color: rgb(231, 211, 215);
+                           }
+                           .manycam .many1 .n a, h2{
+                             color: red;
+                             font-weight: bolder;
+                             font-size: large;
+                           } 
+                           .manycam .many1 .n a:hover{
+                               color:black;
+                               text-decoration: underline;
+                           }
+                           .t ul li{
+                               font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                               font-weight: lighter;
+                               font-size: medium;
+                           }
+                           .t ul li a{
+                               color: red;
+                           }
+                           .t ul li a:hover{
+                               color: red;
+                               text-decoration: none;
+                           }
+                           .u ul li{
+                               list-style-type: disc;
+                               list-style: color(rgb(32, 32, 32)) ;
+                               font-weight: bold;
+                               font-size: smaller;
+                           }
+                           .u ul li a{
+                               color: rgb(155, 148, 148);
+                           }
+                           .u ul li a:hover{
+                               color: rgb(17, 16, 16);
+                               text-decoration: none;
+                           }
+                           /*body final section*/
+                           .heading{
+                               display: flex;
+                           }
+                           .lastly{
+                               display: grid;
+                               grid-template-columns: repeat(4, 300px);
+                               
+                           }
+                           .umbo{
+                               padding: 15px;
+                           }
+                           .umbo p a{
+                               color: rgb(0, 0, 0);
+                               font-size: large;
+                               font-weight: bold;
+                           }
+                           .umbo p a:hover{
+                               color: rgb(223, 29, 29);
+                               text-decoration: underline;
+                           }
+                           .umbo #name {
+                               display: flex;
+                               padding: 10px;
+                               
+                           }
+                           #name p{
+                               padding: 4px;
+                               color: rgb(133, 128, 128);
+                           }
+                           /*footer*/
+                           .foot_talk ul{
+
+                            display: grid;
+                            grid-template-columns: repeat(5, 10%);
+                          }       
+                         .foot_talk li{
+                          border-radius: 50%;
+                         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                          font-size: 17px;
+                          font-weight: lighter;
+                          text-align: center;
+                
+                      }
+                         /*footer bottom*/
+                         .foot_talk a{
+                            color: rgb(100, 96, 96);
+                        }
+                        .foot_talk a:hover{
+                            color: rgb(177, 174, 174);
+                            text-decoration: none;
+                            
+                        }
+               
