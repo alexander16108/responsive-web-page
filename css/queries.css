@@ -1,0 +1,15 @@
+@media all {
+*{
+    width: auto;
+}
+}
+@media (max-width: 768px) {
+   .lastly a {
+      font-size: 1.4rem;
+      align-self: center;
+    }
+  
+    .umbo {
+      grid-template-columns: 1fr;
+    }
+}

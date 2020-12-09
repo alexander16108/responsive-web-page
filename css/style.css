@@ -295,9 +295,10 @@
                            }
                            /*footer*/
                            .icon{
-                               background-color: black;
-                               color: white;
+                            
+                               width: 100%;
                            }
+                         
                            .foot_talk ul{
 
                             display: grid;
