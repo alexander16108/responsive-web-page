@@ -1,73 +1,62 @@
-@media all {
-*{
-    width:100%;
+@media all{
+  *{
+    padding: 0%;
+    margin: 0%;
+   box-sizing: border-box;
+    justify-content: center;
+  }
+}
+@media screen and (min-width:320px) and (max-width:425px){
+header{font-size: 20px;
+  display:block;
+}
+
+.first_born{
+  justify-content: center;
+}
+.another_born{
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+justify-content: center;
+margin: 0%;
+padding: 0%;
+}
+.index{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: auto;
+  float: left;
+  margin: 0%;
+}
+.annoying,
+.second_grandchild
+{
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+  padding: 0%;
+  box-sizing: border-box;
+}
+.manycam{
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+  justify-content: center;
+  width: auto;
+
+}
+.manycam .u{
+  width: 100%;
+padding: 0%;
+margin: 0%;
+
+}
+.manycam .t{
+  width: auto;
 }
 }
-@media (max-width: 650px) and (min-width: 500px) {
-  .on {
-    margin-top: 60px;
-    position: relative;
-    color: aliceblue;
-  }
-  
-  .on a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .on_banner {
-    margin: 10px auto 10px auto;
-    width: 98%;
-    line-height: normal;
-    height: 155px;
-    position: relative;
-  }
-  
-  .on__banner_text1,
-  .on_banner_text2,
-  .on_banner_text3 {
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
-  }
-  
-  .on__banner_text1 {
-    grid-row: 1;
-    background:
-    linear-gradient(to bottom right,
-    rgb(0, 0, 0), 
-   rgb(90, 81, 81)),
-     url("../img/deepmind.jpg")no-repeat;
-   background-size: cover;
-  }
-  
-  .on__banner_text2 {
-    background:
-    linear-gradient(to bottom right,
-     rgb(0, 0, 0), 
-     rgb(90, 81, 81)),
-   url("../img/download.jpg") no-repeat;
-    background-size: cover;
-  }
-  
-  .on__banner_text3 {
-    background:
-    linear-gradient(to bottom right,
-    rgb(0, 0, 0), 
-    rgb(90, 81, 81)),
-     url("../img/stock.jpg") no-repeat;
-   background-size: cover;
-  }
-  
-  .on__banner_text h2 {
-    font-style: italic;
-  }
-  
-  .on__banner_text h3 {
-    font-size: 20px;
-    font-weight: 700;
-  }
-                      
-                
+@media screen and (min-width:768px) {
+
+}
+@media screen and (min-width: 1025px) {
 
 }
