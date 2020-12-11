@@ -158,14 +158,18 @@ footer{
  /*.on_banner_section  */
 
 /*body first section */
+
 .another_born{
     display: grid;
     grid-template-columns: repeat(4, 290px);
 }
+
 .grandchild{
     padding: 15px;
+    
 }
-.grandchild p{
+.grandchild p,
+.grandchild .heading{
     font-weight: bolder;
     font-size: 17px;
     font-family: sans-serif;
